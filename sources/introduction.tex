@@ -1,0 +1,36 @@
+[Motivation] 
+Thermal-infrared imaging has been proven to have advantageous properties in difficult lighting conditions such as darkness, dust, smoke and fog; especially for the tasks of detecting humans, animals, powered equipment and other anomalies. Because of this, a thermal-infrared camera is already an appealing choice to be part of a robot- or human-mounted sensor configuration for modern search and rescue, firefighting or exploration tasks. However,more can be done with the thermal-infrared video than simply 2D visualization and detection, in that it is possible to implement a SLAM (Simultaneous Localization And Mapping) system to enable a 3D understanding of the environment, including the position of the human or robot within it. This information is crucial for navigation purposes, as well as planning purposes for emergency response.
+
+[Applications]
+Firefighting \cite{Schonauer}, Search \& Rescue [?], Robot navigation \cite{Maddern, Gonzalez2011}, Energy auditing [cite Steve's journal paper if it's published in time] and Exploration [?].
+
+Examples of some recent investigations into these areas (can we find relevant citations for these kinds of work?)
+\begin{itemize}
+	\item 3D "Building Reconstruction and Thermal Mapping in Fire Brigade Operations Categories and Subject Descriptors" \cite{schonauer20133d}. Link 
+	http://www.youtube.com/watch?v=QtNvHBT3jMs   	 
+	\item http://youtu.be/BB8jojwl7ws?t=6m30s
+\end{itemize}
+
+[Contributions]
+These are what we are aiming for, for this initial paper:
+\begin{itemize}
+	\item Continuous real-time operation on a standard PC (at least 10 frames per second, aiming more for 30)
+	\item Appropriate default parameters (or adaptive parameters) for a range of typical and atypical environments and data sequences
+	\item Tracking that can maintain a large number of stable and well-distributed features under the following challenges:
+		\begin{itemize}
+			\item sudden movements
+			\item forwards and backwards motion
+			\item fairly low SNR
+		\end{itemize}
+	\item Well-documented, cross-platform, OpenCV/C++ based library, integrated with ROS, that can be used for sparse optical flow on thermal-infrared
+\end{itemize}
+
+[Structure]
+
+\begin{itemize}
+	\item motivation
+	\item contributions
+	\item intro to structure
+\end{itemize}
+
+Placeholder citation \cite{Vidas2011}.

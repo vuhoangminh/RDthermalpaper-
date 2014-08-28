@@ -1,0 +1,188 @@
+% This file was created with JabRef 2.10.
+% Encoding: Cp1252
+
+
+@Article{Buades,
+  Title                    = {{A non-local algorithm for image denoising}},
+  Author                   = {Buades, Antoni and Coll, Bartomeu and Matem, Dpt and Km, Ctra Valldemossa and Mallorca, Palma De and Morel, Jean-michel and Cachan, E N S},
+  Number                   = {0},
+  Pages                    = {0--5},
+
+  File                     = {:C$\backslash$:/Users/Stephen/Documents/Papers/Non local denoise.pdf:pdf}
+}
+
+@Article{dabov2007image,
+  Title                    = {Image denoising by sparse 3-D transform-domain collaborative filtering},
+  Author                   = {Dabov, Kostadin and Foi, Alessandro and Katkovnik, Vladimir and Egiazarian, Karen},
+  Journal                  = {Image Processing, IEEE Transactions on},
+  Year                     = {2007},
+  Number                   = {8},
+  Pages                    = {2080--2095},
+  Volume                   = {16},
+
+  Publisher                = {IEEE}
+}
+
+@Article{Gonzalez2011,
+  Title                    = {{SLAM visuel monoculaire par cam\'{e}ra infrarouge M\'{e}thode Pr\'{e}sentation du syst\`{e}me}},
+  Author                   = {Gonzalez, A},
+  Year                     = {2011},
+
+  File                     = {:C$\backslash$:/Users/Stephen/Documents/Papers/paper46.pdf:pdf},
+  Keywords                 = {extended kalam filter,infrared,slam}
+}
+
+@Article{Hou2011,
+  Title                    = {{Comments on "Image denoising by sparse 3-D transform-domain collaborative filtering".}},
+  Author                   = {Hou, Yingkun and Zhao, Chunxia and Yang, Deyun and Cheng, Yong},
+  Journal                  = {IEEE transactions on image processing : a publication of the IEEE Signal Processing Society},
+  Year                     = {2011},
+
+  Month                    = jan,
+  Number                   = {1},
+  Pages                    = {268--70},
+  Volume                   = {20},
+
+  Abstract                 = {In order to resolve the problem that the denoising performance has a sharp drop when noise standard deviation reaches 40, proposed to replace the wavelet transform by the DCT. In this comment, we argue that this replacement is unnecessary, and that the problem can be solved by adjusting some numerical parameters. We also present this parameter modification approach here. Experimental results demonstrate that the proposed modification achieves better results in terms of both peak signal-to-noise ratio and subjective visual quality than the original method for strong noise.},
+  Doi                      = {10.1109/TIP.2010.2052281},
+  File                     = {:C$\backslash$:/Users/Stephen/Documents/Papers/BM3D\_TIP\_2007.pdf:pdf},
+  ISSN                     = {1941-0042},
+  Pmid                     = {20550998},
+  Url                      = {http://www.ncbi.nlm.nih.gov/pubmed/20550998}
+}
+
+@InProceedings{liu2006noise,
+  Title                    = {Noise estimation from a single image},
+  Author                   = {Liu, Ce and Freeman, William T and Szeliski, Richard and Kang, Sing Bing},
+  Booktitle                = {Computer Vision and Pattern Recognition, 2006 IEEE Computer Society Conference on},
+  Year                     = {2006},
+  Organization             = {IEEE},
+  Pages                    = {901--908},
+  Volume                   = {1}
+}
+
+@Article{Maddern,
+  Title                    = {{Towards Robust Night and Day Place Recognition using Visible and Thermal Imaging}},
+  Author                   = {Maddern, Will and Vidas, Stephen},
+  Pages                    = {1--6},
+
+  File                     = {:C$\backslash$:/Users/Stephen/Documents/Papers/Maddern - Towards robust night and day place recognition.pdf:pdf}
+}
+
+@Article{Mikolajczyk2004,
+  Title                    = {{Scale \& Affine Invariant Interest Point Detectors}},
+  Author                   = {Mikolajczyk, Krystian and Schmid, Cordelia},
+  Year                     = {2004},
+  Number                   = {1},
+  Pages                    = {63--86},
+  Volume                   = {60},
+
+  File                     = {:C$\backslash$:/Users/Stephen/Documents/Papers/Mikolajczyk04a.pdf:pdf},
+  Keywords                 = {affine invariance,interest points,local features,matching,recognition,scale invariance}
+}
+
+@InCollection{rosten2006machine,
+  Title                    = {Machine learning for high-speed corner detection},
+  Author                   = {Rosten, Edward and Drummond, Tom},
+  Booktitle                = {Computer Vision--ECCV 2006},
+  Publisher                = {Springer},
+  Year                     = {2006},
+  Pages                    = {430--443}
+}
+
+@InProceedings{schonauer20133d,
+  Title                    = {3D building reconstruction and thermal mapping in fire brigade operations},
+  Author                   = {Sch{\"o}nauer, Christian and Vonach, Emanuel and Gerstweiler, Georg and Kaufmann, Hannes},
+  Booktitle                = {Proceedings of the 4th Augmented Human International Conference},
+  Year                     = {2013},
+  Organization             = {ACM},
+  Pages                    = {202--205}
+}
+
+@Article{Schonauer,
+  Title                    = {{3D Building Reconstruction and Thermal Mapping in Fire Brigade Operations Categories and Subject Descriptors}},
+  Author                   = {Sch\"{o}nauer, Christian and Vonach, Emanuel and Gerstweiler, Georg},
+  Pages                    = {202--205},
+
+  File                     = {:C$\backslash$:/Users/Stephen/Documents/Papers/PubDat\_217501.pdf:pdf},
+  ISBN                     = {9781450319041},
+  Keywords                 = {all or part of,aug-,fire fighter safety,mented reality,or hard copies of,permission to make digital,real-time dense reconstruction,thermal camera,this work for}
+}
+
+@InProceedings{szummer1998indoor,
+  Title                    = {Indoor-outdoor image classification},
+  Author                   = {Szummer, Martin and Picard, Rosalind W},
+  Booktitle                = {Content-Based Access of Image and Video Database, 1998. Proceedings., 1998 IEEE International Workshop on},
+  Year                     = {1998},
+  Organization             = {IEEE},
+  Pages                    = {42--51}
+}
+
+@Article{Tuytelaars2007,
+  Title                    = {{Local Invariant Feature Detectors: A Survey}},
+  Author                   = {Tuytelaars, Tinne and Mikolajczyk, Krystian},
+  Journal                  = {Foundations and Trends® in Computer Graphics and Vision},
+  Year                     = {2007},
+  Number                   = {3},
+  Pages                    = {177--280},
+  Volume                   = {3},
+
+  Doi                      = {10.1561/0600000017},
+  File                     = {:C$\backslash$:/Users/Stephen/Documents/Papers/Tuytelaars and Mikolajczyk - 2007 - Local Invariant Feature Detectors A Survey.pdf:pdf},
+  ISSN                     = {1572-2740},
+  Url                      = {http://www.nowpublishers.com/product.aspx?product=CGV\&doi=0600000017}
+}
+
+@Article{Vidas2012a,
+  Title                    = {{A Mask-Based Approach for the Geometric Calibration of Thermal-Infrared Cameras}},
+  Author                   = {Vidas, Stephen and Lakemond, Ruan and Denman, Simon and Fookes, Clinton and Sridharan, Sridha and Member, Senior and Wark, Tim},
+  Year                     = {2012},
+  Pages                    = {1--11},
+
+  File                     = {:C$\backslash$:/Users/Stephen/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Vidas et al. - 2012 - A Mask-Based Approach for the Geometric Calibration of Thermal-Infrared Cameras.pdf:pdf}
+}
+
+@Article{Vidas2011,
+  Title                    = {{An Exploration of Feature Detector Performance in the Thermal-Infrared Modality}},
+  Author                   = {Vidas, Stephen and Lakemond, Ruan and Denman, Simon and Fookes, Clinton and Sridharan, Sridha and Wark, Tim},
+  Journal                  = {2011 International Conference on Digital Image Computing: Techniques and Applications},
+  Year                     = {2011},
+
+  Month                    = dec,
+  Pages                    = {217--224},
+
+  Doi                      = {10.1109/DICTA.2011.43},
+  File                     = {:C$\backslash$:/Users/Stephen/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Vidas et al. - 2011 - An Exploration of Feature Detector Performance in the Thermal-Infrared Modality.pdf:pdf},
+  ISBN                     = {978-1-4577-2006-2},
+  Keywords                 = {-thermal-infrared,8,a,darkness,detector on a thermal-,evaluation,feature detectors,figure 1,infrared image taken at,night in almost total,returned by a surf,speeded up robust features,the strongest 100 features},
+  Publisher                = {Ieee},
+  Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6128685}
+}
+
+@Article{Vidas2012,
+  Title                    = {{Hand-held Monocular SLAM in Thermal-infrared}},
+  Author                   = {Vidas, Stephen and Sridharan, Sridha},
+  Year                     = {2012},
+  Number                   = {December},
+  Pages                    = {5--7},
+
+  File                     = {:C$\backslash$:/Users/Stephen/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Vidas, Sridharan - 2012 - Hand-held Monocular SLAM in Thermal-infrared.pdf:pdf}
+}
+
+@Article{Yung2008,
+  Title                    = {{Corner detector based on global and local curvature properties}},
+  Author                   = {Yung, Nelson H. C.},
+  Journal                  = {Optical Engineering},
+  Year                     = {2008},
+
+  Month                    = may,
+  Number                   = {5},
+  Pages                    = {057008},
+  Volume                   = {47},
+
+  Doi                      = {10.1117/1.2931681},
+  File                     = {:C$\backslash$:/Users/Stephen/Documents/Papers/JOE057008.pdf:pdf},
+  ISSN                     = {0091-3286},
+  Url                      = {http://opticalengineering.spiedigitallibrary.org/article.aspx?doi=10.1117/1.2931681}
+}
+

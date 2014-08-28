@@ -1,0 +1,102 @@
+The evaluation is done on thermal images
+collected and labeled by thermographic camera, Optris PI450, equipped with 80Hz
+measurement speed and 382 x 288 pixels optical resolution \footnote{http://www.optris.com/thermal-imager-pi400}. With high speed capturing ability, Optris PI450 is sufficient for real-time Simultaneous Localization and Mapping (SLAM).   
+
+Four datasets with different signal-to-noise (SNR) ratios  are used as follows. 
+\begin{itemize}
+\item High SNR indoor sequence
+\item Low SNR indoor sequence
+\item High SNR outdoor sequence
+\item Low SNR outdoor sequence
+\end{itemize}
+
+Thermal images not in our database can be easily added to the training set without affecting any algorithms.
+
+
+
+
+
+
+
+
+%A significant amount of
+%noise is added during the acquisition process (zoom,
+%viewpoint, light changes, Jpeg compression). The zoom
+%changes involve a change in pixel intensity as automatic
+%camera settings are used. Jpeg compression additionally
+%introduces artifacts. Some of the image pairs are
+%displayed in Section 5.2. In order to use a homography
+%for verification we used planar scenes or 3D scenes
+%with a fixed camera position. The homography between
+%images was estimated using manually selected corresponding
+%points. Each scale change sequence consists
+%of scaled and rotated images, for which the scale factor
+%varies from 1.4 to 4.5. For the viewpoint change
+%sequences the viewpoint varies in the horizontal direction
+%between 0 and 70 degrees. There are 10 images in
+%each sequence representing different scenes. The experiments
+%were carried out using 10 scale change sequences
+%and 6 viewpoint change sequences of real images,
+%one of the sequences is displayed in Fig. 9. There are 
+%160 images in total and approximately 100 000 interest
+%points are detected in these images and used to
+%evaluate the detectors.
+
+
+%Label and describe each of the datasets captured, with justification (e.g. for the variety).
+
+Figure \ref{fig:datasets} shows samples of datasets:
+
+\begin{figure}
+\centering
+	\begin{subfigure}{0.49\columnwidth}
+    \centering
+    \includegraphics[width=1.00\textwidth]{media/dummy.jpg}
+    \caption{Sequence 1}
+		\label{fig:datasets_1}
+  \end{subfigure}
+	\begin{subfigure}{0.49\columnwidth}
+    \centering
+    \includegraphics[width=1.00\textwidth]{media/dummy.jpg}
+		\caption{Sequence 2}
+		\label{fig:datasets_2}
+  \end{subfigure} \vspace{10pt} \\ 
+	\begin{subfigure}{0.49\columnwidth}
+    \centering
+    \includegraphics[width=1.00\textwidth]{media/dummy.jpg}
+    \caption{Sequence 3}
+		\label{fig:datasets_3}
+  \end{subfigure}
+	\begin{subfigure}{0.49\columnwidth}
+    \centering
+    \includegraphics[width=1.00\textwidth]{media/dummy.jpg}
+		\caption{Sequence 4}
+		\label{fig:datasets_4}
+  \end{subfigure} \vspace{10pt} \\ 
+	\begin{subfigure}{0.49\columnwidth}
+    \centering
+    \includegraphics[width=1.00\textwidth]{media/dummy.jpg}
+    \caption{Sequence 5}
+		\label{fig:datasets_5}
+  \end{subfigure}
+	\begin{subfigure}{0.49\columnwidth}
+    \centering
+    \includegraphics[width=1.00\textwidth]{media/dummy.jpg}
+		\caption{Sequence 6}
+		\label{fig:datasets_6}
+  \end{subfigure} \vspace{10pt} \\ 
+	\begin{subfigure}{0.49\columnwidth}
+    \centering
+    \includegraphics[width=1.00\textwidth]{media/dummy.jpg}
+    \caption{Sequence 7}
+		\label{fig:datasets_7}
+  \end{subfigure}
+	\begin{subfigure}{0.49\columnwidth}
+    \centering
+    \includegraphics[width=1.00\textwidth]{media/dummy.jpg}
+		\caption{Sequence 8}
+		\label{fig:datasets_8}
+  \end{subfigure}
+\caption{Datasets for evaluation}
+\label{fig:datasets}
+\end{figure}

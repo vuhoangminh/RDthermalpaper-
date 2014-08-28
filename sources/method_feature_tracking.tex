@@ -1,0 +1,21 @@
+Some contributions that were not included in previous paper:
+
+\begin{itemize}
+	\item LDA-based matching for interruption handling
+	\item initial warp for minimizing search windows based on feature velocity
+	\item adaptive tracking window, based on no. of features and feature velocity:
+	\begin{itemize}
+	  \item this appropriately limits the spatial size of the search space for each new projection in order to reduce processing time while simultaneously decrease chance of incorrect tracking, without preventing good tracking results
+		\item no. of features relative to maximum and predefined frac defines maximum distance
+		\item 2 times the expected required distance defines the minimum (well, 3 is the actual minimum)
+	\end{itemize}
+	\item scalable feature track management method enabling loop closure
+	\begin{itemize}
+	  \item limits memory consumption to a fixed, finite upper limit
+		\item still provides opportunity to recover lost features and potentially enables loop closure
+	\end{itemize}
+\end{itemize}
+
+
+
+

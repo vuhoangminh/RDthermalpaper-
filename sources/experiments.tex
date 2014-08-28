@@ -1,0 +1,12 @@
+Timing tests were performed on a Intel Core I5-3317 CPU 1.7GHz, 8GB RAM. 
+
+Experiments have been designed to assess the effectiveness of the proposed method compared to existing alternatives, as well as determine which aspects of the method have the most positive effect, and at what cost (in terms of processing time). 
+(Each part of the evaluation will include FAST and/or other conventional methods as a baseline).
+
+First, a new set of data sequences captured for the experiments is presented in Subsection \ref{sec:experiments_datasets}.
+Second, the evaluation framework for the subsequent three subsections is defined in Subsection \ref{sec:experiments_framework}.
+Third, several alternative denoising methods are compared for front-end image processing, and evaluated using both the proposed and conventional methods in Subsection \ref{sec:experiments_image_processing}.
+Fourth, the edge detection and processing stage is evaluated in terms of performance and processing time in Subsection \ref{sec:experiments_edge_d_and_p}.
+Fifth, the corner selection procedure based on the edge map is evaluated in Subsection \ref{sec:experiments_corner_selection}.
+Sixth, tracking improvements are demonstrated in Subsection \ref{sec:experiments_tracking_improvements}.
+Finally, the proposed method is evaluated on the same dataset as used by \cite{Vidas2012}, allowing a direct comparison with the best known past performance of a thermal-infrared sparse optical flow system in Subsection \ref{sec:experiments_me_stability}.

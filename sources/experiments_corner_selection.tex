@@ -1,0 +1,3 @@
+This section should be where you establish the effectiveness of the two denoising methods, including their processing time, by using existing (conventional) feature detectors such as FAST and HARRIS, and a conventional tracking algorithm such as Lucas-Kanade.
+
+Also, you should look at the effect of different methods of scaling the 14-bit data to 8-bit format. The advantage of 8-bit format is that it requires less processing time, and also allows more modularity with existing functions and libraries. Furthermore, there should generally be very little (if any) information lost in this conversion, and when information is lost, it means it is a high SNR image and so the loss of the information is not a problem (there is still sufficient information left over).

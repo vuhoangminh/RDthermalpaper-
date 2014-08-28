@@ -1,0 +1,18 @@
+This is where you explain the basic experiments you will be doing. When it comes to judging the performance of the feature detection algorithms (and implicitly, the image processing algorithms), I recommend emphasizing the following characteristics:
+
+\begin{itemize}
+	\item trackability - looking at for example the average lifetime of detected features, and how far they "`drift"' throughout the sequence. Can use my reversal technique here (looping from 0 to 100 and back to 0 without doubling up, and comparing the start and end location of the tracked feature)
+	\item precision - how accurately the features are detected on valid points-of-interest, as reflected in the repeatability of detections (whether the exact same points are detected in the real world even when the camera has shifted to a different view). You can compare each new detection with how the features have been tracked using Lucas-Kanade, but this will probably also require manual (human) verification.
+	\item quality assessment - looking at how effective the feature ranking (strength metrics) are. You can probably use some qualitative analysis here, with some good figures, but also you can consider looking at the relationship between feature quality, and other parameters such as the precision and trackability of the feature, to determine how well the quality metric works.
+\end{itemize}
+
+You should show some comparative images from FAST and the proposed detector (perhaps with a low SNR and high SNR image each) which show the top N features from each detector. The top N from the proposed detector should seem much more logical/intuitive. Later experiments will demonstrate a good relationship between the feature "`strength"' and its usefulness/effectiveness.
+
+The framework should make clear that you want to investigate changing parameters such as:
+
+\begin{itemize}
+	\item denoising method
+	\item feature detection method
+	\item feature ranking/sorting method
+	\item thresholds and sensitivity levels
+\end{itemize}

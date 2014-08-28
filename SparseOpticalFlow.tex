@@ -1,0 +1,154 @@
+\documentclass[journal]{IEEEtran}
+%\hyphenation{op-tical net-works semi-conduc-tor}
+
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{bm}
+\usepackage{balance}
+
+\usepackage{color}
+\definecolor{cite_col}{rgb}{0.5,0,0}
+\definecolor{link_col}{rgb}{0,0.5,0}
+\definecolor{url_col}{rgb}{0,0,0.5}
+\usepackage[pdftex,breaklinks=true,colorlinks=true,citecolor=cite_col,linkcolor=link_col,urlcolor=url_col,bookmarks=true,bookmarksopen=true]{hyperref}
+
+\usepackage{balance}
+\usepackage{pdfpages}
+\usepackage{refcount}
+\usepackage{bookmark}
+\makeatletter
+\define@key{pdfpages}{linkname}{\def\AM@linkname@option{#1}\label{pdfpages@#1@begin}}
+\newcommand*{\mypdfbookmark}[4]{\bookmark[page=\numexpr\getpagerefnumber{pdfpages@#1@begin}+#2\relax,view={#3}]{#4}}
+\makeatother
+
+\begin{document}
+\title{Robust Optical Flow in low SNR Thermal-Infrared}
+
+\author{Stephen~Vidas,~\IEEEmembership{Member,~IEEE,}
+        Vu~Hoang~Minh,~\IEEEmembership{Member?,~IEEE,}
+        and~C.C.~Cheah,~\IEEEmembership{Senior~Member?,~IEEE}% <-this % stops a space
+\thanks{All authors are with the School of Electrical and Electronic Engineering,
+Nanyang Technological University, Singapore, 639798
+e-mail: hoangmin001@e.ntu.edu.sg,\{svidas,ecccheah\}@ntu.edu.sg.}% <-this % stops a space
+}
+
+\markboth{Journal TBA}%
+{Journal TBA}
+% The only time the second header will appear is for the odd numbered pages
+% after the title page when using the twoside option.
+%
+% *** Note that you probably will NOT want to include the author's ***
+% *** name in the headers of peer review papers.                   ***
+% You can use \ifCLASSOPTIONpeerreview for conditional compilation here if
+% you desire.
+
+\maketitle
+
+% As a general rule, do not put math, special symbols or citations
+% in the abstract or keywords.
+\begin{abstract}
+\input{sources/abstract.tex}
+\end{abstract}
+
+% Note that keywords are not normally used for peerreview papers.
+%\begin{IEEEkeywords}
+%IEEEtran, journal, \LaTeX, paper, template.
+%\end{IEEEkeywords}
+
+% For peerreview papers, this IEEEtran command inserts a page break and
+% creates the second title. It will be ignored for other modes.
+\IEEEpeerreviewmaketitle
+
+% INTRODUCTION
+\section{Introduction}
+\label{sec:introduction}
+\input{sources/introduction.tex}
+
+% BACKGROUND
+\section{Background}
+\label{sec:background}
+\input{sources/background.tex}
+
+\subsection{Thermal-Infrared Computer Vision}
+\label{sec:background_thermal}
+\input{sources/background_thermal.tex}
+
+\subsection{Sparse Optical Flow}
+\label{sec:background_sparse_of}
+\input{sources/background_sparse_of.tex}
+
+% RELATED WORK
+\section{Related Work}
+\label{sec:related_work}
+\input{sources/related_work.tex}
+
+\subsection{Image Denoising}
+\label{sec:related_work_denoising}
+\input{sources/related_work_denoising.tex}
+
+\subsection{Feature Detection}
+\label{sec:related_work_feature_detection}
+\input{sources/related_work_feature_detection.tex}
+
+\subsection{Feature Tracking}
+\label{sec:related_work_feature_tracking}
+\input{sources/related_work_feature_tracking.tex}
+
+% METHOD
+\section{Proposed Method}
+\label{sec:method}
+\input{sources/method.tex}
+
+\subsection{Feature Tracking}
+\label{sec:method_feature_tracking}
+\input{sources/method_feature_tracking.tex}
+
+% EXPERIMENTS
+\section{Experiments}
+\label{sec:experiments}
+\input{sources/experiments.tex}
+
+\subsection{Datasets}
+\label{sec:experiments_datasets}
+\input{sources/experiments_datasets.tex}
+
+\subsection{Framework}
+\label{sec:experiments_framework}
+\input{sources/experiments_framework.tex}
+
+\subsection{Image Processing}
+\label{sec:experiments_image_processing}
+\input{sources/experiments_image_processing.tex}
+
+\subsection{Edge Detection and Processing}
+\label{sec:experiments_edge_d_and_p}
+\input{sources/experiments_edge_d_and_p.tex}
+
+\subsection{Corner Selection}
+\label{sec:experiments_corner_selection}
+\input{sources/experiments_corner_selection.tex}
+
+\subsection{Tracking Improvements}
+\label{sec:experiments_tracking_improvements}
+\input{sources/experiments_tracking_improvements.tex}
+
+\subsection{Motion Estimation Stability}
+\label{sec:experiments_me_stability}
+\input{sources/experiments_me_stability.tex}
+
+% CONCLUSION
+\section{Conclusion}
+\label{sec:conclusion}
+\input{sources/conclusion.tex}
+
+\section*{Acknowledgment}
+
+(Will need to check if this is necessary with Prof Cheah)
+The authors would like to thank the funding from A*STAR, Singapore's National Research funding agency, for the support of this project.
+
+\bibliographystyle{myIEEEtran}
+\bibliography{mypapers}
+
+\end{document}
